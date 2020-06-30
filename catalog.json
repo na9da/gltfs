@@ -1,0 +1,47 @@
+{
+  "catalog": [
+    {
+      "name": "Scene editor",
+      "type": "group",
+      "members": [
+        {
+          "name": "Building",
+          "type": "gltf",
+          "url": "../data/apartment-building/scene.gltf",
+          "origin": {
+            "latitude": -27.47358,
+            "longitude": 153.02194,
+            "height": 0
+          },
+          "rotation": {
+            "heading": 0,
+            "pitch": 0,
+            "roll": 0
+          },
+          "scale": 10,
+          "heightReference": "CLAMP_TO_GROUND",
+          "editing": {
+            "isEditable": true,
+            "isTransformable": true
+          }
+        },
+        {
+          "name": "Ducky",
+          "type": "gltf",
+          "url": "../data/Duck.glb",
+          "origin": {
+            "latitude": -27.47358,
+            "longitude": 153.02194,
+            "height": 0
+          },
+          "scale": 100,
+          "heightReference": "CLAMP_TO_GROUND",
+          "editing": {
+            "isEditable": true,
+            "isTransformable": true
+          }
+        }
+      ]
+    }
+  ]
+}
